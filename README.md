@@ -9,7 +9,7 @@ Bottom of the file contains example on how to use
 
 ## nas_optimizer_particle_n50_k5_m7.log
 
-Is an example log file from an actual run, it is decomposed into two major parts, the Initial population and the actual particle evolution, search for either "TRAINING INITIAL POPULATION" or "INIT PARTICLE 1/50"
+This is an example log file from an actual run, it is decomposed into two major parts, the Initial population and the actual particle evolution, search for either "TRAINING INITIAL POPULATION" or "INIT PARTICLE 1/50"
 
 Each line will print the Validation Accuracy, the Time taken, and the "Function" (Optimizer implementation).
 
