@@ -20,7 +20,7 @@ Each _DecaySchedule_ follows a similar flow, containing a small adjacency matrix
 
 Each optimizer chromosome is passed around until the fitness function is reached. Once the OptimizerChrom is to be evaluated, an Optimizer tensorflow object is created. Note, this implementation is highly convoluted and computes all possible combinations, even if it is not used by the OptimizerChrom.
 
-Note: _un_bin_perc_ is short for unary_binary_percent (the probability of being either unary or binary).
+Note: In code, _un_bin_perc_ is short for unary_binary_percent (the probability of being either unary or binary).
 
 The logic for all ofthis is kind of difficult so I'm sorry if it's hard to understand by reading code. 
 
