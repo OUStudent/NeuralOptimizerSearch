@@ -11,7 +11,7 @@ Bottom of the file contains example on how to use
 
 This is the main file that performs the evolution of the Optimizers.
 
-Each optimizer is represented by a chromosome: '''OptimizerChrom'''
+Each optimizer is represented by a chromosome: 'OptimizerChrom'
 
 ## nas_optimizer_particle_n50_k5_m7.log
 
