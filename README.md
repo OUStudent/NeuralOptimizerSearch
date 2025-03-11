@@ -7,6 +7,12 @@ All perfomred in Tensorflow
 Contains implementations of the final best 10 Optimizers, Adam Clip variants, and Evolvd Learning Rate Schedules
 Bottom of the file contains example on how to use
 
+## NeuralOptimizerSearch
+
+This is the main file that performs the evolution of the Optimizers.
+
+Each optimizer is represented by a chromosome: '''OptimizerChrom'''
+
 ## nas_optimizer_particle_n50_k5_m7.log
 
 This is an example log file from an actual run, it is decomposed into two major parts, the Initial population and the actual particle evolution, search for either "TRAINING INITIAL POPULATION" or "INIT PARTICLE 1/50"
